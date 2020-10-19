@@ -1,0 +1,166 @@
+#include <iostream>
+#include <string>
+#include <cctype>
+#include <vector>
+using namespace std;
+int main()
+{
+    //std::cout << "Hello World!\n";
+   // string s;
+   ///* cin >> s;
+   // cout << s << endl;*/
+   // while (getline(cin, s))
+   //     cout << s << endl;
+    //string s1("abc");
+    //string s2 = "aaa" + s1 + "bbb";
+    //string s3 = "aaa" + "bbb" + s1;
+    /*string s1, s2;
+    cin >> s1 >> s2;
+    if (s1.size() > s2.size())
+        cout << s1;
+    if (s2.size() > s1.size())
+        cout << s2;*/
+    //string s,s1;
+    //while (cin >> s1)
+    //{
+    //    s += s1;
+    //    s += " ";
+    //}
+    //cout << s;
+    //string s("My Name");
+    //for (auto& c : s)
+    //    c=toupper(c);
+    //cout << s;
+
+    //string s("fds. v;'fd");
+    //for (char& c : s)
+    //    if (isalpha(c))
+    //        c = 'X';
+    //cout << s << endl;
+    //decltype(s.size())x = 0;
+    //while (x < s.size())
+    //{
+    //    if (isalpha(s[x]))
+    //        s[x] = 'X';
+    //    x++;
+    //}
+    //cout << s << endl;
+    //for (decltype(s.size())v = 0; v < s.size(); v++)
+    //    if (isalpha(s[v]))
+    //        s[v] = 'X';
+    //cout << s << endl;
+
+    //const string s("fff;ds'f;");
+    //string ss;
+    //for (auto &c : s)
+    //    if (!ispunct(c))
+    //        ss += c;
+    //cout << ss;
+    //string s{ "assaa" };
+
+    /*vector<int>v1;
+    for (int i = 1; i <= 100; i++)
+        v1.push_back(i);
+    vector<string>v2;
+    string ss;
+    while (cin>>ss)
+    {
+        v2.push_back(ss);
+    }
+    for (auto c : v2)
+        cout << c;*/
+
+    //vector<string>v;
+    //string s;
+    //while (cin >> s)
+    //    v.push_back(s);
+    //for (auto &c : v)
+    //    for (auto& d : c)
+    //        d = toupper(d);
+    //for (auto e : v)
+    //    cout << e << endl;
+
+    //vector<int>v;
+    //int a;
+    //while (cin >> a)
+    //    v.push_back(a);
+    //int sum = 0, s = 1;
+    //for (auto c : v)
+    //{
+    //    if (s % 2) {
+    //        sum += c; s++;
+    //    }
+    //    else
+    //    {
+    //        sum += c;
+    //        s = 1;
+    //        cout << sum << endl;
+    //        sum = 0;
+    //    }
+    //}
+
+    //vector<int>v;
+    //int a;
+    //while (cin >> a)
+    //    v.push_back(a);
+    //int s = v.size() / 2;
+    //for (int d = 0; d < s; d++)
+    //    cout << v[d] + v[v.size() - 1 - d]<<endl;
+
+    //vector<string>v7{ 10,"hi" };
+    //unsigned d =0;
+    //auto a = v7.begin(), b = v7.end();
+    //for (a; a != b; a++)
+    //{
+    //    d++;
+    //    cout << *a<<endl;
+    //
+    //}
+    //cout << d;
+
+    //vector<int>v{ 1,2,3,4,5,6,7,8,9,10 };
+    //auto a = v.begin(), b = v.end();
+    //for (a; a != b; a++)
+    //    *a *= 2;
+    //for (auto c : v)
+    //    cout << c<<endl;
+    
+    //vector<int> v;
+    //int s;
+    //while (cin >> s)
+    //    v.push_back(s);
+    //auto a = v.begin(), b = v.end();
+    //int sum = 0;
+    //for (a; a != b; a++)
+    //{
+    //    if (sum == 0)
+    //        sum += *a;
+    //    else {
+    //        sum += *a;
+    //        cout << sum << endl;
+    //        sum = 0;
+    //    }
+//}
+
+    //vector<int> v;
+    //int s;
+    //while (cin >> s)
+    //v.push_back(s);
+    //auto a = v.begin(), b = v.end();
+    //auto mid = (b - a) / 2; auto end = a + mid; int i = 1;
+    //for (a; a != end; a++,i++)
+    //    cout << *a+ *(b - i);
+
+    //vector<int>v(11, 0);
+    //unsigned grade;
+    //auto a = v.begin();
+    //while (cin >> grade)
+    //    if(grade<100)
+    //    ++* (a + grade / 10);
+    //for (auto c : v)
+    //    cout << c << endl;
+
+        
+    
+
+}
